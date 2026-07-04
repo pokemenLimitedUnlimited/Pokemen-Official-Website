@@ -1,0 +1,116 @@
+img {
+  color: hsl(0, 0%, 83%);
+}
+
+#latestReleaseDiv {
+  height: 100%;
+  padding-top: 1%;
+  margin-top: 1%;
+  margin-left: 4%;
+  border: 3px solid hsl(232, 81%, 38%);
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  min-width: 200px;
+}
+
+#latestReleaseDiv img {
+  height: 150px;
+}
+
+#latestReleaseH4Div {
+  padding-bottom: 2%;
+  width: 100%;
+  border-bottom: 3px solid hsl(232, 81%, 38%);
+  display: flex;
+  justify-content: center;
+}
+
+#latestReleaseDiv h4 {
+  margin: auto;
+  text-decoration: underline;
+  font-size: 1.3em;
+  color: white;
+  float: left;
+}
+#latestReleaseDiv p {
+  margin-left: 10%;
+  font-size: 1.3em;
+  color: hsl(0, 0%, 83%);
+  margin-bottom: 2%;
+}
+
+.latestReleaseInfoDiv {
+  margin-bottom: 7%;
+  display: flex;
+  justify-content: center;
+}
+
+.latestReleaseInfoTextDiv {
+  width: 60%;
+}
+
+#latestReleaseDiv a {
+  color: hsl(0, 0%, 83%);
+  margin-right: 5%;
+}
+
+#floppyRichardAd h4 {
+  text-decoration: underline;
+  font-size: 1.3em;
+  color: white;
+}
+
+#floppyRichardAd {
+  margin-top: 1%;
+  margin-left: 4%;
+  border: 3px solid hsl(232, 81%, 38%);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+#floppyRichardAdHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  border-bottom: 3px solid hsl(232, 81%, 38%);
+}
+
+#floppyRichardAd a {
+  text-decoration: underline;
+  font-size: 1.3em;
+  color: hsl(0, 0%, 83%);
+  display: flex;
+  align-items: center;
+  margin-top: 8%;
+}
+
+#floppyRichardAd a p {
+  display: inline;
+}
+
+#floppyRichardShop {
+  width: 31%;
+}
+
+#floppyRichardInfo img {
+  width: 40%;
+  margin-top: 10%;
+}
+
+#floppyRichardInfo {
+  width: 90%;
+}
+
+#floppyRichardInfo p {
+  color: hsl(0, 0%, 83%);
+  margin-top: 10%;
+  font-size: 1.3em;
+  margin-bottom: 10%;
+}

@@ -1,0 +1,427 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: Roboto, Verdana;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 200vh;
+  display: flex;
+  background-color: hsl(231, 80%, 10%);
+}
+
+#rightSideDiv {
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  left: 0;
+}
+
+#searchBar {
+  background-color: hsl(231, 83%, 16%);
+  border-style: solid;
+  border-color: hsl(0, 0%, 31%);
+  border-radius: 10px;
+  width: 70%;
+  height: 33px;
+  color: hsl(0, 0%, 92%);
+  padding-left: 28px;
+  margin-left: 3%;
+  font-size: 1em;
+  min-width: 200px;
+}
+
+#searchBarDiv {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+#searchBar::placeholder {
+  color: hsl(0, 0%, 58%);
+  opacity: 1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: hsl(231, 80%, 10%);
+  height: 75px;
+  width: 85%;
+  top: 0;
+  right: 0;
+  border-bottom: 2px solid hsl(232, 80%, 27%);
+  position: fixed;
+}
+
+.fa-magnifying-glass {
+  font-size: 1.3em;
+  color: hsl(0, 0%, 58%);
+  margin-left: 3px;
+}
+
+#searchBarDiv button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  margin-left: 3.5%;
+  cursor: pointer;
+}
+
+#headerDiv {
+  display: flex;
+  height: 75px;
+  width: 100%;
+  align-items: center;
+}
+
+#sideBarDiv {
+  z-index: 1;
+  height: 100vh;
+  background-color: hsl(231, 80%, 10%);
+  width: 15%;
+  border-right: 2px solid hsl(232, 80%, 27%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  min-width: 150px;
+}
+
+#logoImage {
+  width: 95%;
+  cursor: pointer;
+}
+
+#logoImageDiv {
+  display: flex;
+  width: 100%;
+  height: 13.55%;
+  border-bottom: 2px solid hsl(232, 80%, 15%);
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-bars {
+  font-size: 2em;
+  color: hsl(0, 0%, 58%);
+  cursor: pointer;
+}
+
+#hamburgerMenuDiv {
+  margin-left: auto;
+  margin-right: 20px;
+  position: relative;
+}
+
+#menuSideBarDiv {
+  position: absolute;
+  background-color: hsl(0, 0%, 84%);
+  width: 130px;
+  border-radius: 3px;
+  display: none;
+  right: 0;
+}
+
+#menuSideBarDiv ul {
+  width: 100%;
+}
+
+.hambMenuOptions {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+
+.hambMenuOptions + li {
+  list-style-type: none;
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-top: 2px solid rgb(82, 82, 82);
+}
+
+#hamburgerMenuDiv:hover #menuSideBarDiv {
+  display: block;
+}
+
+.hambMenuOptions a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  height: 260px;
+  width: 100%;
+  background-color: rgb(168, 168, 168);
+  margin-top: auto;
+  display: flex;
+  position: relative;
+}
+
+footer li {
+  list-style-type: none;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-size: 1.3em;
+}
+
+footer img {
+  width: 75%;
+  display: inline;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.footerImgDiv {
+  margin-top: 2%;
+  width: 42%;
+  height: 70px;
+  margin-left: 10%;
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerImgDiv img {
+  margin: 0;
+}
+
+#footerEmail {
+  color: black;
+}
+
+#footerRightDiv p {
+  margin-left: 12%;
+  margin-top: 2%;
+}
+
+#footerSMDiv a {
+  font-size: 1.3em;
+}
+
+#footerRightDiv > div a {
+  margin-left: 7%;
+  width: auto;
+}
+
+#footerRightDiv a {
+  margin-left: 0;
+  margin-top: 2%;
+  font-size: 20.8px;
+  width: 100%;
+  color: black;
+}
+
+#footerRightDiv p {
+  font-size: 20.8px;
+  margin-left: 7%;
+}
+
+#footerRightDiv {
+  width: 25%;
+}
+
+#footerDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#imageIconDiv {
+  margin-top: 11%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideBarBtnDiv {
+  margin-left: 15%;
+  margin-bottom: 7%;
+}
+
+#banner {
+  width: 100%;
+}
+
+#imageIconDiv p {
+  color: hsl(0, 0%, 92%);
+  display: inline;
+  font-size: 1.5em;
+}
+
+#imageIconDiv a {
+  text-decoration: none;
+}
+
+.fa-image,
+.fa-shop,
+.fa-headphones,
+.fa-circle-info {
+  font-size: 2em;
+  color: hsl(0, 0%, 92%);
+  display: inline;
+}
+
+.fa-instagram {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+.fa-facebook {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+#footerFavicon {
+  width: 35%;
+}
+
+#phoneNoLabel p {
+  display: block;
+}
+
+#footerImgDivCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+}
+
+#footerFaviconDiv {
+  margin-left: 6%;
+}
+
+#footerLogoDiv {
+  left: 0;
+}
+
+#newIcon {
+  width: 40px;
+}
+
+#newReleaseDiv img {
+  margin-left: 2%;
+}
+
+#imageIconDiv a {
+  display: flex;
+  align-items: center;
+}
+
+#footerSMDiv {
+  display: flex;
+  width: 100%;
+  margin-top: 10%;
+}
+
+#footerPhoneNo {
+  display: block;
+}
+
+#pageBody {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  #sideBarDiv {
+    display: none;
+  }
+  #rightSideDiv {
+    margin: 0;
+    width: 100%;
+  }
+  #pageBody {
+    flex-direction: column;
+    align-items: center;
+  }
+  #pageBody div {
+    width: 80%;
+  }
+  header {
+    width: 100%;
+  }
+  #footerDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    height: 100vh;
+  }
+  #footerRightDiv {
+    width: 100%;
+  }
+  footer {
+    margin-top: 10%;
+  }
+  #footerSMDiv {
+    margin: 0;
+  }
+  .mobileHide {
+    display: none;
+  }
+  #footerImgDivCont {
+    justify-content: flex-start;
+  }
+  .footerImgDiv {
+    width: 30%;
+  }
+  #footerDiv {
+    padding-left: 15%;
+  }
+  #footerRightDiv {
+    margin: 0;
+  }
+  #footerRightDiv > div a {
+    margin-left: 9%;
+  }
+  #footerRightDiv p {
+    margin-left: 9%;
+  }
+  #sideBarDiv.show-sidebar {
+    display: flex;
+  }
+  #hamburgerMenuDiv:hover #menuSideBarDiv {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  footer {
+    height: 60vh;
+  }
+  #footerRightDiv > div a {
+    margin-left: 0;
+  }
+  #footerRightDiv p {
+    margin-left: 0;
+  }
+  footer li {
+    width: 70%;
+    font-size: 1em;
+  }
+  #footerRightDiv a {
+    font-size: 1em;
+  }
+
+  #footerRightDiv p {
+    font-size: 1em;
+  }
+  #footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
