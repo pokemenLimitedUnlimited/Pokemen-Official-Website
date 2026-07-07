@@ -224,6 +224,7 @@ button {
   flex-direction: column;
   width: 20%;
   align-items: center;
+  margin-left: 10%;
 }
 
 #goToCartBtn {
@@ -319,5 +320,14 @@ button {
     border: 3px solid hsl(207, 100%, 50%);
     cursor: pointer;
     margin-right: 3%;
+  }
+  #cartHeaderRow h2 {
+    font-size: 1.5rem;
+  }
+  #totalPrice h3 {
+    font-size: 1.5rem;
+  }
+  #totalPrice {
+    text-align: center;
   }
 }
