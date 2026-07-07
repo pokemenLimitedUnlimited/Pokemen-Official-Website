@@ -336,7 +336,7 @@ footer img {
   display: flex;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   #sideBarDiv {
     display: none;
   }

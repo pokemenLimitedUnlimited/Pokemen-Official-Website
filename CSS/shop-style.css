@@ -32,10 +32,10 @@ button {
 
 .galleryUnitDiv {
   border: 3px solid hsl(207, 100%, 50%);
-  width: 31%;
   border-radius: 8px;
   padding-bottom: 3%;
   margin-left: 3%;
+  margin-top: 15%;
 }
 
 .galleryUnitDiv p {
@@ -58,9 +58,9 @@ button {
   justify-content: center;
 }
 
-.galleryUnitWrapper {
-  margin-top: 5%;
-  display: flex;
+.volumeWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
 }
 
 .buttonWrapper {
@@ -267,7 +267,7 @@ button {
 
 #noResultsWrapper {
   width: 100%;
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
@@ -286,15 +286,15 @@ button {
   background-color: hsl(216, 75%, 75%);
 }
 
-@media screen and (max-width: 768px) {
-  .galleryUnitWrapper {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    margin-left: 7%;
-  }
+@media screen and (max-width: 900px) {
   #pageBody div {
     width: 95%;
+  }
+
+  .volumeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .galleryUnitDiv {
     margin-bottom: 5%;
@@ -304,9 +304,7 @@ button {
   .imageWrapper {
     padding-left: 5.5%;
   }
-  .galleryUnitWrapper {
-    margin: 0;
-  }
+
   .cartItemsDiv h3 {
     font-size: 1.1rem;
   }

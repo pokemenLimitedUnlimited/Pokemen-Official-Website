@@ -14,7 +14,7 @@
       href="assets/Images/Pokémen/favicon.png"
     />
     <link rel="stylesheet" href="CSS/default-style.css" />
-    <link rel="stylesheet" href="CSS/shop-style.css" />
+    <link rel="stylesheet" href="CSS/gallery-style.css" />
     <link rel="stylesheet" href="CSS/font.css" />
   </head>
   <body>
@@ -70,14 +70,9 @@
       <div id="headerDiv">
         <header>
           <div id="searchBarDiv">
-            <button id="searchBtn">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
             <input type="text" id="searchBar" placeholder="Search" />
           </div>
-          <button onclick="goToCart()" id="goToCartBtn">
-            Go to shopping cart
-          </button>
           <div>
             <div id="hamburgerMenuDiv">
               <i class="fa-solid fa-bars"> </i>
@@ -102,41 +97,12 @@
 
         <div id="pageBody">
           <div id="galleryPageDiv">
-            <h1 style="color: hsl(0, 0%, 84%); margin-bottom: 0">Shop:</h1>
-            <div class="volumeLabel">
-              <h2>Special Items:</h2>
-              <div class="imageRows">
-                <div class="volumeWrapper">
-                  <div class="galleryUnitDiv">
-                    <div class="imageWrapper">
-                      <a
-                        href="assets/Images/Pokémen/floppy richard portrait.png"
-                        target="_blank"
-                        ><img
-                          src="assets/Images/Pokémen/floppy richard portrait.png"
-                          alt=""
-                      /></a>
-                    </div>
-                    <h3>Floppy Richard</h3>
-                    <p><strong>Type:</strong> Capture Device</p>
-                    <p><strong>Abilities:</strong></p>
-                    <ul>
-                      <li>Capture Pokémen</li>
-                    </ul>
-                    <p>Price: £3.00</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+            <h1 style="color: hsl(0, 0%, 84%); margin-bottom: 0">Gallery:</h1>
             <!--Volume 1-->
-            <div class="volumeLabel">
+            <div id="volume1Label">
               <h2>Volume 1:</h2>
               <div class="imageRows">
-                <div class="volumeWrapper">
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/001.jpeg" target="_blank"
@@ -150,10 +116,6 @@
                       <li>Sketch Attack</li>
                       <li>Big Ideas</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -168,10 +130,6 @@
                       <li>Leaf Sketch</li>
                       <li>Nature's Charm</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -186,11 +144,9 @@
                       <li>Toxic Sneeze</li>
                       <li>Crooked Cackle</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/004.jpeg" target="_blank"
@@ -204,10 +160,6 @@
                       <li>Static Spark</li>
                       <li>Zap Focus</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -222,10 +174,6 @@
                       <li>Mind Read</li>
                       <li>Confusion Wave</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -240,11 +188,9 @@
                       <li>Sharp Mind</li>
                       <li>Shadow Focus</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/007.jpeg" target="_blank"
@@ -257,10 +203,6 @@
                     <ul>
                       <li>Power Smile</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -275,10 +217,6 @@
                       <li>Sketch Face</li>
                       <li>Steel Headbutt</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -293,11 +231,9 @@
                       <li>Sigma Aura</li>
                       <li>Rizz Lord</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/010.jpeg" target="_blank"
@@ -311,10 +247,6 @@
                       <li>Dragon Breath</li>
                       <li>Roar of Moore</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -329,10 +261,6 @@
                       <li>Silk Spin</li>
                       <li>Teamwork Nest</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -347,11 +275,9 @@
                       <li>Ground Slam</li>
                       <li>Rock Barrier</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/013.jpeg" target="_blank"
@@ -365,10 +291,6 @@
                       <li>Super Skipper</li>
                       <li>Snapchat Hoodie</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -383,10 +305,6 @@
                       <li>Fairy Flex</li>
                       <li>Crouch Beam</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -401,11 +319,9 @@
                       <li>Banana Burst</li>
                       <li>Peel Out</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/016.jpeg" target="_blank"
@@ -419,10 +335,6 @@
                       <li>Mind Link</li>
                       <li>Cosmic Spinner</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -437,10 +349,6 @@
                       <li>Wave Splash</li>
                       <li>Fiji Water Flood</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -455,11 +363,9 @@
                       <li>Blaze Burst</li>
                       <li>Fortnite Rage Quit</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/019.png" target="_blank"
@@ -473,10 +379,6 @@
                       <li>Synaptic Overdrive</li>
                       <li>Void Resonance</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -491,10 +393,6 @@
                       <li>Sky Sovereign</li>
                       <li>Aerial Domination</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -509,19 +407,15 @@
                       <li>Insane Aura</li>
                       <li>Ice Cream Overload</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!--Volume 2-->
             <div class="volumeLabel">
+              <!--Volume 2-->
               <h2>Volume 2:</h2>
               <div class="imageRows">
-                <div class="volumeWrapper">
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/021.jpeg" target="_blank"
@@ -535,10 +429,6 @@
                       <li>Goon Flare</li>
                       <li>Absolute Goonage</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -554,10 +444,6 @@
                       <li>Iron Avalanche</li>
                       <li>Fiji Dance</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -573,11 +459,9 @@
                       <li>Void Takeover</li>
                       <li>Mega Blackout</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/024.jpeg" target="_blank"
@@ -591,10 +475,6 @@
                       <li>Royal Command</li>
                       <li>Golden Domination</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -609,10 +489,6 @@
                       <li>Emperor's Command</li>
                       <li>Inferno Domination</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -627,11 +503,9 @@
                       <li>Birthday Everyday</li>
                       <li>Spectral Blowout</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/027.jpeg" target="_blank"
@@ -645,10 +519,6 @@
                       <li>Leaf Shocker</li>
                       <li>Forest Frenzy</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -663,10 +533,6 @@
                       <li>Absolute Zero</li>
                       <li>Glacial Burst</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -681,11 +547,9 @@
                       <li>Aqua Burst</li>
                       <li>Tidal Typhoon</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/030.jpeg" target="_blank"
@@ -699,10 +563,6 @@
                       <li>Voltage Strike</li>
                       <li>Thunder Smash</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -717,10 +577,6 @@
                       <li>Royal Reign</li>
                       <li>Shadow Dominion</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -735,11 +591,9 @@
                       <li>Ocean's Decree</li>
                       <li>Tsunami Sovereign</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/033.jpeg" target="_blank"
@@ -753,10 +607,6 @@
                       <li>Duo Dragon Charge</li>
                       <li>Twin Draconic Cyclone</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -771,10 +621,6 @@
                       <li>Ew Stare</li>
                       <li>Disgusted Burst</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -789,11 +635,9 @@
                       <li>Stellar Push-Up</li>
                       <li>Night Sky Glide</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/036.jpeg" target="_blank"
@@ -807,10 +651,6 @@
                       <li>Steel Overdrive</li>
                       <li>Sinto Shield</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -825,10 +665,6 @@
                       <li>Gust Of Greatness</li>
                       <li>Sky Sovereign</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -843,11 +679,9 @@
                       <li>Honk Inferno</li>
                       <li>Feathered Fury</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
+                </div>
+                <div class="galleryUnitWrapper">
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
                       <a href="assets/Images/Pokémen/039.jpeg" target="_blank"
@@ -861,10 +695,6 @@
                       <li>Family Formation</li>
                       <li>We Roam Together</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                   <div class="galleryUnitDiv">
                     <div class="imageWrapper">
@@ -879,49 +709,12 @@
                       <li>Squad Swarm</li>
                       <li>Feather Avalanche</li>
                     </ul>
-                    <p>Price: £1.50</p>
-                    <div class="buttonWrapper">
-                      <button class="buyButton">Buy Now!</button>
-                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div id="noResultsWrapper">
-          <p id="noResults">No results found</p>
-        </div>
-        <section id="shoppingCart">
-          <h1>Shopping Cart:</h1>
-          <section id="rows">
-            <section id="cartHeaderRow">
-              <h2 id="itemsH2">Items:</h2>
-              <h2 id="priceH2">Price:</h2>
-              <h2 id="qntyH2">Quantity:</h2>
-            </section>
-            <!--<section class="cartRows">
-              <div class="cartItemsDiv">
-                <img src="assets/Images/Pokémen/001.jpeg" alt="" />
-                <h3>Kian Ramezani</h3>
-              </div>
-              <div class="cartPriceDiv"><h3>£1.50</h3></div>
-              <div class="cartQntyDiv">
-                <button class="qntyPlus">+</button>
-                <h3>1</h3>
-                <button class="qntyMinus">-</button>
-              </div>
-            </section>-->
-            <div id="cartPurchaseInfo">
-              <span id="totalPrice"><h3>Total: £0.00</h3></span>
-              <button onclick="purchase()" id="purchaseBtn">Purchase</button>
-              <button onclick="scrollToTop()" id="scrollToTop">
-                Go to shop
-              </button>
-            </div>
-          </section>
-        </section>
       </main>
       <footer>
         <div id="footerDiv">
@@ -987,6 +780,5 @@
     </div>
 
     <script src="Javascript/index.js"></script>
-    <script src="Javascript/shop.js"></script>
   </body>
 </html>

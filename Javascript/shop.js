@@ -112,10 +112,10 @@ function searchItems() {
       item.style.display = "none";
     }
   });
-  const noResults = document.getElementById("noResults");
+  const noResults = document.getElementById("noResultsWrapper");
   const labels = document.querySelectorAll(".volumeLabel");
   if (visibleCount === 0) {
-    noResults.style.display = "";
+    noResults.style.display = "flex";
   } else {
     noResults.style.display = "none";
   }
