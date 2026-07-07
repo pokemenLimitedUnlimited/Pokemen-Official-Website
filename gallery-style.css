@@ -1,0 +1,83 @@
+#volume1Label {
+  color: hsl(0, 0%, 84%);
+  margin-top: 2%;
+}
+
+.galleryUnitDiv img {
+  width: 90%;
+  border: 3px solid hsl(207, 100%, 50%);
+  border-radius: 14px;
+}
+
+#galleryPageDiv {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 10%;
+}
+
+.galleryUnitDiv h3 {
+  color: hsl(0, 0%, 84%);
+  font-size: 1.4em;
+  margin-left: 10%;
+}
+
+.volumeLabel h2 {
+  color: hsl(0, 0%, 84%);
+  margin-top: 5%;
+}
+
+.galleryUnitDiv {
+  border: 3px solid hsl(207, 100%, 50%);
+  width: 31%;
+  border-radius: 8px;
+  padding-bottom: 3%;
+  margin-left: 3%;
+}
+
+.galleryUnitDiv p {
+  margin-left: 10%;
+  color: hsl(0, 0%, 84%);
+  font-size: 1em;
+  margin-top: 3%;
+}
+
+.galleryUnitDiv li {
+  margin-left: 23%;
+  color: hsl(0, 0%, 84%);
+  font-size: 1em;
+  margin-top: 3px;
+}
+
+.galleryUnitDiv a {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.galleryUnitWrapper {
+  margin-top: 5%;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .galleryUnitWrapper {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: 7%;
+  }
+  #pageBody div {
+    width: 95%;
+  }
+  .galleryUnitDiv {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  .imageWrapper {
+    padding-left: 5.5%;
+  }
+  .galleryUnitWrapper {
+    margin: 0;
+  }
+}
