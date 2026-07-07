@@ -100,7 +100,7 @@ img {
 }
 
 #floppyRichardInfo img {
-  width: 40%;
+  width: 85%;
   margin-top: 10%;
 }
 
@@ -113,4 +113,9 @@ img {
   margin-top: 10%;
   font-size: 1.3em;
   margin-bottom: 10%;
+}
+
+#floppyRichardImgDiv {
+  display: flex;
+  justify-content: center;
 }

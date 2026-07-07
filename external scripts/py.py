@@ -4,7 +4,7 @@ from PIL import Image
 # --- CONFIG ---
 TARGET_WIDTH = 1086
 TARGET_HEIGHT = 1448
-DIR = r"C:\Users\issac\Desktop\HTML + CSS\assets\Pokémen"   # your folder
+DIR = r"C:\Users\issac\Desktop\HTML + CSS\assets\Images\Pokémen"   # your folder
 
 # --- SCRIPT ---
 for filename in os.listdir(DIR):

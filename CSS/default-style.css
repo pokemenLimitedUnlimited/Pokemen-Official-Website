@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
 }
 body {
-  min-height: 200vh;
+  min-height: 100vh;
   display: flex;
   background-color: hsl(231, 80%, 10%);
 }
