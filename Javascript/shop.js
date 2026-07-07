@@ -116,6 +116,7 @@ function searchItems() {
   const labels = document.querySelectorAll(".volumeLabel");
   if (visibleCount === 0) {
     noResults.style.display = "flex";
+    window.scroll(0, 270);
   } else {
     noResults.style.display = "none";
   }
