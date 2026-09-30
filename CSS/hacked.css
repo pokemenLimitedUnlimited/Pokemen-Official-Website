@@ -1,0 +1,64 @@
+* {
+  padding: none;
+  margin: none;
+}
+body {
+  animation-name: colourflash;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-end;
+}
+#skull {
+  width: 325px;
+  text-align: center;
+  color: black;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  display: block;
+  margin: 50px;
+}
+
+@keyframes colourflash {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes houseAppear {
+  0% {
+    display: none;
+  }
+  100% {
+    display: inline;
+  }
+}
+
+.fa-house {
+  font-size: 5em;
+  animation-name: houseAppear;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: step-end;
+}
+
+.houseLink {
+  color: black;
+}
+
+.houseLink:visited {
+  color: black;
+}
